@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "pnpm --filter=server run dev"
+    "dev": "pnpm --filter=server run dev",
+    "add-component": "pnpm --filter=server run add-component"
   },
   "packageManager": "pnpm@9.4.0",
   "keywords": [],
