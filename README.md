@@ -1,5 +1,5 @@
 
-# LF2 (ScooTech)
+# LF2 (qeToocS for ScooTeq)
 
 Repository for the entire LF2 workspace
 
