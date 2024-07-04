@@ -63,13 +63,9 @@ qeToocS GmbH,
 2 week delivery\
 no setup required
 
-=== Cost and Payment Terms:\
-Total Cost: 9.938,91 €\
-Payment Terms: 2% discount when paid in less than 14 days\
-Which will result in a cost of: 9.739,14 €
-
-=== invoice
-
+=== Cost and Payment Terms:\ 
+#v(3pt)
+Invoice
 // Coloumns: No, Product Name, Quantity, Price per quantity, Total Price
 #table(
   columns: (1fr, auto, auto, auto, auto),
@@ -83,9 +79,30 @@ Which will result in a cost of: 9.739,14 €
     table.hline(start:0)
   ),
   [1.], [Mifcom Workstation], [1], [3.914,79 €], [3.914,79 €],
-  [2.], [HP Victus 16-d1055ng], [4], [1.288,03 €hours], [5.152,12 €],
-  [3.], [_Assembly_], [8/h], [109 €/h], [872 €],
-  table.hline(start:0)
+  [2.], [HP Victus 16-d1055ng], [4], [1.288,03 €], [5.152,12 €],
+  [3.], [_Service hours_], [8/h], [109 €/h], [872 €],
+  table.hline(start:0),
+  [],[],[],
+  [
+    #set align(end) 
+    Total:
+  ],
+  [9.938,91 €],
+  table.hline(start:4),
+  [],[],[],
+  [
+    #set align(end) 
+    Customer Discount:
+  ],
+  [5%],
+  table.hline(start:4),
+  [],[],[],
+  [
+    #set align(end) 
+    Total after Discount:
+  ],
+  [9.739,14 €],
+  table.hline(start:4),
 )
 
 === Expiration:
