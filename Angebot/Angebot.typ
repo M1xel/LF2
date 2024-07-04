@@ -75,19 +75,33 @@ Invoice
   
   table.header(
     table.hline(start:0),
-    [No.], [Product Name], [Quantity], [Price per Quantity], [Total Price],
+    [No.], [Product Name], [Quantity], [net Price per Quantity], [Total net Price],
     table.hline(start:0)
   ),
-  [1.], [Mifcom Workstation], [1], [3.914,79 €], [3.914,79 €],
-  [2.], [HP Victus 16-d1055ng], [4], [1.288,03 €], [5.152,12 €],
+  [1.], [Mifcom Workstation], [1], [4.194,01 €], [4.194,01 €],
+  [2.], [HP Victus 16-d1055ng], [4], [1.379,90 €], [5.519,60 €],
   [3.], [_Service hours_], [8/h], [109 €/h], [872 €],
   table.hline(start:0),
   [],[],[],
   [
     #set align(end) 
+    Subtotal (net):
+  ],
+  [10.585,59 €],
+  table.hline(start:4),
+  [],[],[],
+  [
+    #set align(end) 
+    19% VAT:
+  ],
+  [19%],
+  table.hline(start:4),
+  [],[],[],
+  [
+    #set align(end) 
     Total:
   ],
-  [9.938,91 €],
+  [12.596,85 €],
   table.hline(start:4),
   [],[],[],
   [
@@ -101,14 +115,33 @@ Invoice
     #set align(end) 
     Total after Discount:
   ],
-  [9.739,14 €],
+  [11996,19 €],
+  table.hline(start:4),
+    table.hline(start:4),
+  [],[],[],
+  [
+    #set align(end) 
+    Cash Discount:
+  ],
+  [2%],
+  table.hline(start:4),
+  [],[],[],
+  [
+    #set align(end) 
+    Total after cash discount:
+  ],
+  [11756,26 €],
   table.hline(start:4),
 )
 
 === Expiration:
 This proposal is valid until (07.16.2024)
 
-We look forward to assisting you with your IT equipment needs. Please feel free[Your Company Name] to contact us with any questions or to discuss further details.
+We look forward to assisting you with your IT equipment needs. Please feel free #cname to contact us with any questions or to discuss further details.
+
+If you pay in 2 weeks you get a 2% discount which correlates to 11756,26 €.\
+After the time period the full price applies with 11996,19 €.
+
 \ \
 #name
 
