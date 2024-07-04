@@ -1,12 +1,12 @@
 {
-  "name": "LF2",
+  "name": "lf2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "pnpm --filter=server run dev"
   },
+  "packageManager": "pnpm@9.4.0",
   "keywords": [],
-  "author": "",
+  "author": "Turbo Team",
   "license": "ISC"
 }
